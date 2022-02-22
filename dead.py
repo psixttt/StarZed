@@ -8,6 +8,10 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import ChatPermissions
 import time
 from time import sleep
+if os.sys.platform == "win32":
+    os.system("cls")
+else:
+    os.system("clear")
 app = Client('dedinside-session', api_id=1016382, api_hash='c27834e5683d50a9bacf835a95ec4763')
 
 app.start()
