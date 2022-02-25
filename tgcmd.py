@@ -19,8 +19,8 @@ app.start()
 app.stop()
 print('''
       ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-      ┃       Made by Criblle               Созданно Criblle        ┃
-      ┃  Telegram: @starzedscript    Телеграм-канал: @starzedscript ┃
+      ┃       Made by Criblle                       ┃
+      ┃  Telegram: muhammadamin ┃
       ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 
@@ -76,7 +76,7 @@ def valentine(_, msg):
                 sleep(time/cool)
             except:
                 pass
-    msg.edit(f'<b> ⭐ @starzedscript </b>')
+    msg.edit(f'<b> ⭐ 😩🥲</b>')
 
 textded = '''
 <b> Я дед инсайд </b>
@@ -138,7 +138,7 @@ def valentine(_, msg):
                 sleep(time/cool)
             except:
                 pass
-    msg.edit(f'<b> ⭐ @starzedscript </b>')
+    msg.edit(f'<b> ⭐  </b>')
 
 @app.on_message(filters.command("ghoul", prefixes=".") & filters.me)
 def valentine(app, message):
@@ -182,7 +182,7 @@ def valentine(app, message):
 
 
 </code>Все команды нужно писать в любой чат<code> </code><i>телеграмм после выполнения кода! (Ввода зависим. числа)</i>
-<i>Made by @starzedscript</i>
+<i></i>
 
 ''')
 
@@ -222,7 +222,7 @@ def valentine(_, msg):
                 sleep(time/cool)
             except:
                 pass
-    msg.edit(f'<b> ⭐ @starzedscript </b>')
+    msg.edit(f'<b> ⭐  </b>')
 
 @app.on_message(filters.command("love", prefixes=".") & filters.me)
 def valentine(_, msg):
@@ -260,7 +260,7 @@ def valentine(_, msg):
                 sleep(time/cool)
             except:
                 pass
-    msg.edit(f'<b> ⭐ @starzedscript </b>')
+    msg.edit(f'<b> ⭐  </b>')
 
 jopa = '''
            <b>ВЗЛОМ ЖОПЫ</b> 
@@ -301,5 +301,5 @@ love = '''
 <b>Я люблю тебя ❤️‍🔥</b>
 
 '''
-end_message = '<b> ⭐ @starzedscript </b>'
+end_message = '<b> ⭐  </b>'
 app.run()
